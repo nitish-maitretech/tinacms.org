@@ -7,9 +7,19 @@ consumes:
     details: Shows textarea field interface and config options
   - file: /packages/@tinacms/fields/src/components/TextArea.ts
     details: Shows textarea field interface and config options
+last_edited: '2021-11-24T10:12:45.191Z'
 ---
-
 The `textarea` field represents a multi-line text input. It should be used for content values that are long strings: for example, a page description.
+
+rhias isb fksnkn fvm sdl;vsdvsd
+
+wsxG
+
+df
+
+sdgh
+
+dFH 
 
 ![tinacms-textarea-field](/img/fields/textarea.png)
 
@@ -24,11 +34,11 @@ interface TextareaConfig {
 }
 ```
 
-| Option        | Description                                                                                     |
-| ------------- | ----------------------------------------------------------------------------------------------- |
-| `component`   | The name of the plugin component. Always 'textarea'.                                            |
-| `name`        | The path to some value in the data being edited.                                                |
-| `label`       | A human readable label for the field. Defaults to the name. _(Optional)_                        |
+| Option | Description |
+| --- | --- |
+| `component` | The name of the plugin component. Always 'textarea'. |
+| `name` | The path to some value in the data being edited. |
+| `label` | A human readable label for the field. Defaults to the name. _(Optional)_ |
 | `description` | Description that expands on the purpose of the field or prompts a specific action. _(Optional)_ |
 
 > This interfaces only shows the keys unique to the textarea field.
